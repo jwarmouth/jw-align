@@ -1,0 +1,24 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (align-advanced.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  rs-align-jw.cpp
+c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(299): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(300): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(325): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(326): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(327): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(659): warning C4244: '=': conversion from 'double' to 'uchar', possible loss of data
+rs-align-jw.obj : error LNK2019: unresolved external symbol "class cv::Mat __cdecl cv::imread(class cv::String const &,int)" (?imread@cv@@YA?AVMat@1@AEBVString@1@H@Z) referenced in function main
+rs-align-jw.obj : error LNK2019: unresolved external symbol "bool __cdecl cv::imwrite(class cv::String const &,class cv::debug_build_guard::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NAEBVString@1@AEBV_InputArray@debug_build_guard@1@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) referenced in function main
+rs-align-jw.obj : error LNK2019: unresolved external symbol "struct cv::Ptr<class cv::BackgroundSubtractorMOG2> __cdecl cv::createBackgroundSubtractorMOG2(int,double,bool)" (?createBackgroundSubtractorMOG2@cv@@YA?AU?$Ptr@VBackgroundSubtractorMOG2@cv@@@1@HN_N@Z) referenced in function "void __cdecl `dynamic initializer for 'background_subtractor''(void)" (??__Ebackground_subtractor@@YAXXZ)
+C:\Program Files (x86)\Intel RealSense SDK 2.0\samples\x64\Debug\align-jw.exe : fatal error LNK1120: 3 unresolved externals

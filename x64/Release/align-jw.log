@@ -1,0 +1,52 @@
+﻿  rs-align-jw.cpp
+c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(299): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(300): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(325): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(326): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(327): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(659): warning C4244: '=': conversion from 'double' to 'uchar', possible loss of data
+  Generating code
+  0 of 1334 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  align-jw.vcxproj -> C:\Program Files (x86)\Intel RealSense SDK 2.0\samples\x64\Release\align-jw.exe
+  Copy OpenCV and RealSense SDK shared modules next to the application
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\bin\x64\realsense2.dll
+  1 File(s) copied
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_calib3d341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_core341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_dnn341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_features2d341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_flann341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_highgui341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_imgcodecs341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_imgproc341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_ml341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_objdetect341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_photo341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_shape341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_stitching341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_superres341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_video341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_videoio341.dll
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\bin\x64\Release\opencv_videostab341.dll
+  17 File(s) copied
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\data\MobileNetSSD_deploy.caffemodel
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\data\MobileNetSSD_deploy.prototxt
+  2 File(s) copied
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\data\MobileNetSSD_deploy.caffemodel
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\opencv-3.4\\data\MobileNetSSD_deploy.prototxt
+  2 File(s) copied
