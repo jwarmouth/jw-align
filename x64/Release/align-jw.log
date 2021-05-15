@@ -1,23 +1,4 @@
-﻿  rs-align-jw.cpp
-c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(299): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(300): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(346): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
-          with
-          [
-              _Tp=int
-          ]
-c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(347): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
-          with
-          [
-              _Tp=int
-          ]
-c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(348): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
-          with
-          [
-              _Tp=int
-          ]
-c:\program files (x86)\intel realsense sdk 2.0\samples\align-jw\rs-align-jw.cpp(680): warning C4244: '=': conversion from 'double' to 'uchar', possible loss of data
-  Generating code
+﻿  Generating code
   0 of 1605 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged

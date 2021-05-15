@@ -148,7 +148,7 @@
       <AdditionalDependencies>opencv_imgcodecs341.lib;opencv_imgproc341.lib;opencv_video341.lib;opencv_videoio341.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ProjectReference>
-      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
