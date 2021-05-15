@@ -1,3 +1,3 @@
-time = 2021_05_09_21:47:03
+time = 2021_05_09_22:43:33
 file_path = C:/Gnomes/
-C:/Gnomes/cv_color_2021_05_09_21:47:03.png
+C:/Gnomes/cv_color_2021_05_09_22:43:33.png

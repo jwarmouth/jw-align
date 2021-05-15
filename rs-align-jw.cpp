@@ -321,13 +321,34 @@ int main(int argc, char * argv[]) try
         // Using CV BackgroundSubtractor
         Mat foreground_mask;
         background_subtractor->apply(color_cv_frame, foreground_mask, -1);
+
+        // TRY THIS FLOODFILL technique
+        // https://learnopencv.com/filling-holes-in-an-image-using-opencv-python-c/
+        // Threshold - Set values equal to or above 220 to 0.
+        // Set values below 220 to 255.
+        Mat im_th;
+        threshold(foreground_mask, im_th, 220, 255, THRESH_BINARY);
+
+        // Floodfill from point (0, 0)
+        Mat im_floodfill = im_th.clone();
+        floodFill(im_floodfill, cv::Point(0, 0), Scalar(255));
+
+        // Invert floodfilled image
+        Mat im_floodfill_inv;
+        bitwise_not(im_floodfill, im_floodfill_inv);
+  
+        // Combine the two images to get the foreground.
+        Mat im_out = (im_th | im_floodfill_inv);
+
+        depth_cv_mask = im_out;
+
         
         auto depth_cv_mask = Mat(Size(width, height), CV_8UC1);   // GRAY
         auto composite_cv_frame = Mat(Size(width, height), CV_8UC4); // RGBA
         auto display_cv_frame = Mat(Size(width, height), CV_8UC3); // RGB
 
         //auto depth_cv_frame = Mat(Size(width, height), CV_8UC3, (void*)bw_depth.get_data(), Mat::AUTO_STEP);
-        threshold(foreground_mask, depth_cv_mask, thresh_min_value, 255, THRESH_BINARY);
+        //threshold(foreground_mask, depth_cv_mask, thresh_min_value, 255, THRESH_BINARY);
         //threshold(depth_cv_frame, depth_cv_mask, thresh_min_value, thresh_max_value, THRESH_BINARY);
         //cvtColor(depth_cv_frame, depth_cv_mask, COLOR_BGR2GRAY); // or COLOR_RGB2GRAY ?
         //create_mask_from_depth(depth_cv_frame, 180, THRESH_BINARY);
@@ -364,9 +385,9 @@ int main(int argc, char * argv[]) try
         overlayImage(display_cv_frame, resized_cv_frame, display_cv_frame, Point(gnome_x, gnome_y));
 
         // Display Frame
-        imshow("CV Frame", composite_cv_frame);
+        //imshow("CV Frame", composite_cv_frame);
         //imshow("CV Frame", display_cv_frame);
-        //imshow("FG Mask", foreground_mask);
+        imshow("FG Mask", depth_cv_mask);
 
 
         // Write Test Frame Files (once)
